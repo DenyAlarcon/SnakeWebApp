@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Snake";
+}
+
+<h2 class="text-center">Snake</h2>
+<h6 class="text-center">Turn number: 0</h6>
+<div class="d-flex justify-content-center">
+    <canvas id="gameBoard"></canvas>
+</div>
+
+@section scripts
+{
+    <script src="~/js/clientForSnake.js" asp-append-version="true"></script>
+}
